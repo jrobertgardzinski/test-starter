@@ -11,6 +11,7 @@
         <module>test-starter-common</module>
         <module>unit-test-starter</module>
         <module>bdd-test-starter</module>
+        <module>system-test-starter</module>
     </modules>
 
     <properties>
@@ -28,6 +29,11 @@
             <dependency>
                 <groupId>com.jrobertgardzinski</groupId>
                 <artifactId>unit-test-starter</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jrobertgardzinski</groupId>
+                <artifactId>system-test-starter</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
